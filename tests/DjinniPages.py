@@ -11,7 +11,7 @@ class DjinniSearchLocators:
 
     LOCATOR_FILTER_AQA = (By.XPATH, "//a[contains(text(),'QA Automation')]")
     LOCATOR_FILTER_AQA_TITLE = "Статистика зарплат QA Automation на Джині"
-    LOCATOR_FILTER_EXP = (By.XPATH, "//a[contains(text(),'2-5 років')]")
+    LOCATOR_FILTER_EXP = (By.XPATH, "//a[contains(text(),'2-3 роки')]")
     LOCATOR_VACANCIES_COUNT = (By.XPATH,
                "//*[@class='summary-stastistics--item summary-stastistics--item_vacancies']//div[contains(text(), 'Всього')]/parent::div//div[@class='summary-item--value']")
 

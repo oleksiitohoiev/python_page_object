@@ -1,5 +1,5 @@
-from DjinniPages import HomeHelper
-from DjinniPages import SearchHelper
+from tests.DjinniPages import HomeHelper
+from tests.DjinniPages import SearchHelper
 
 
 def test_value_vacancies_more_than_candidates(browser):
